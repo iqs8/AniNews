@@ -1,6 +1,6 @@
 # AniNews Project Setup
 
-An ai newsletter, hosted at news.iqs8.org. Instructions below on how to run your own. 
+An ai newsletter, hosted at [news.iqs8.org](https://news.iqs8.org). Instructions below on how to run your own.
 
 ---
 
