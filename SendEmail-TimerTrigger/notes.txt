@@ -1,0 +1,7 @@
+deploy with "func azure functionapp publish newsletter-sender" from root directory
+
+better cuz show errors, using gui from extensions will say deployed but can have errors
+
+will break if you have pip dependencies it can't resolve like pygame or something 
+(be aware of all pip modules ur using, try not to use freeze)
+

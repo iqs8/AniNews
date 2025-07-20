@@ -1,0 +1,23 @@
+# Ignore all local.settings.json files in any subdirectory
+local.settings.json
+**/local.settings.json
+
+# Node.js
+node_modules/
+
+# Python
+.venv/
+.python_packages/
+__pycache__/
+
+# VSCode settings (optional)
+.vscode/
+
+# Azurite (Azure Storage Emulator) local files
+__blobstorage__/
+__queuestorage__/
+__azurite_db_*.json
+
+# Other
+local.settings.json
+**/local.settings.json

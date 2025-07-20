@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+
+.neon-glow {
+  text-shadow: 0 0 8px #fff, 0 0 16px #a855f7, 0 0 24px #a855f7, 0 0 32px #a855f7;
+}
+
+@keyframes typewriter {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0 0 0 0); }
+}
+
+.typewriter {
+  display: inline-block;
+  animation: typewriter 2.5s steps(20, end) forwards;
+  text-align: center;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.2s ease-in forwards;
+}
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+/* Neon Blitz Title Only */
+.neon-blitz {
+  font-family: "Neonblitz", sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #ff66cc;
+  text-shadow: 0 0 2px #ff66cc, 0 0 8px #ff33cc, 0 0 16px #ff0099;
+}
+
+
+/* Sample newsletter image container border and shadow */
+.sample-newsletter-container {
+  border: 2px solid #a855f7;
+  box-shadow: 0 4px 24px 0 rgba(168, 85, 247, 0.10), 0 1.5px 6px 0 rgba(0,0,0,0.04);
+  border-radius: 1rem;
+  background: #f8fafc;
+}
+
+/* Scrollbar */
+.sample-newsletter-container::-webkit-scrollbar {
+  width: 10px;
+  background: #ede9fe;
+  border-radius: 8px;
+}
+.sample-newsletter-container::-webkit-scrollbar-thumb {
+  background: #a855f7;
+  border-radius: 8px;
+  border: 2px solid #ede9fe;
+}
+.sample-newsletter-container::-webkit-scrollbar-thumb:hover {
+  background: #7c3aed;
+}
+.sample-newsletter-container {
+  scrollbar-width: thin;
+  scrollbar-color: #a855f7 #ede9fe;
+}
+
+/* Button */
+button[type="submit"] {
+  transition: transform 0.18s cubic-bezier(0.4,0,0.2,1), box-shadow 0.18s cubic-bezier(0.4,0,0.2,1);
+}
+button[type="submit"]:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 0 4px #ede9fe, 0 0 12px #a855f7;
+}
+
+#vanta-bg {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.feedback-cyan {
+  color: #22d3ee; /* Tailwind's cyan-400 */
+}

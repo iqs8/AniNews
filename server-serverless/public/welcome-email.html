@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>AniNews</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #fffdfd;
+      font-family: 'Georgia', serif;
+      color: #333;
+    }
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      border: 1.5px solid #dab6f9;
+      box-shadow:
+        0 0 5px rgba(245, 133, 186, 0.15),
+        0 0 10px rgba(186, 119, 255, 0.08);
+    }
+    h1 {
+      text-align: center;
+      font-size: 28px;
+      color: #854edb;
+      margin-bottom: 12px;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 15px;
+      color: #666;
+      margin-bottom: 25px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .footer {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+      text-align: center;
+      font-size: 13px;
+      color: #888;
+    }
+    .unsubscribe {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 13px;
+      color: #888;
+    }
+    .unsubscribe a {
+      color: #e754a3;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to AniNews!</h1>
+    <p class="subtitle">Thank you for subscribing to our daily anime news newsletter.</p>
+
+    <p>You'll receive your first update soon! We're excited to share the latest news and happenings in the anime industry with you.</p>
+
+    <p style="color: #666; font-size: 14px;">To make sure you don't miss an update, please mark this email as "Not Junk" or add us to your contacts.</p>
+
+    <div class="footer">
+      You can unsubscribe anytime by clicking the link at the bottom of any newsletter email.
+    </div>
+
+    <div class="unsubscribe">
+      Or just <a href="{{UNSUB_LINK}}">unsubscribe here</a>.
+    </div>
+  </div>
+</body>
+</html> 

@@ -1,0 +1,17 @@
+{
+    "name": "newsletter-server",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "start": "func start",
+        "test": "echo \"No tests yet...\""
+    },
+    "dependencies": {
+        "@azure/cosmos": "^4.0.0",
+        "nodemailer": "^6.9.9",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "@azure/functions": "^4.0.0"
+    }
+}
